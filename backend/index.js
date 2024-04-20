@@ -5,7 +5,7 @@ const { createTodo, updateTodo } = require('./types');
 
 const app = express();
 app.use(cors({
-    origin: "http://localhost:5173"
+    origin: "http://localhost:8080"
 }));
 app.use(express.json());
 

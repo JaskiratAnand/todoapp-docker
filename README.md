@@ -1,4 +1,4 @@
-## TODO App
+# TODO App
 This project contains a simple TODO application. the application has following features:
 - Create a TODO
 - View TODOs
@@ -6,7 +6,7 @@ This project contains a simple TODO application. the application has following f
 - Delete TODOs
 
 
-## Working
+## Setup
 ```bash
     git clone
 ```
@@ -26,5 +26,18 @@ This project contains a simple TODO application. the application has following f
 ```bash
     cd frontend/
     npm install
+```
+- Development build
+```bash
     npm run dev
+```
+
+- Production build
+```bash
+    npm run build
+    cd dist/
+    
+    npm install -g serve
+
+    serve -s -p 8080
 ```
