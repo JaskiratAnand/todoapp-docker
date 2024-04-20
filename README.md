@@ -41,3 +41,17 @@ This project contains a simple TODO application. the application has following f
 
     serve -s -p 8080
 ```
+
+## Running Docker Containers
+### Backend
+```bash
+    docker build -t todo-backend-server . 
+    docker run -p 3000:3000 todo-backend-server
+```
+
+### Frontend
+```bash
+    docker build -t todo-frontend-app . 
+
+    docker run -p 8080:8080 todo-frontend-app
+```
