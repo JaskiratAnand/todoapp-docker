@@ -1,4 +1,4 @@
-
+import deleteIcon from '../assets/delete.svg';
 
 export const Todos = ({ todos, onCompleteTodo }) => {
 
@@ -38,7 +38,9 @@ export const Todos = ({ todos, onCompleteTodo }) => {
                 <button onClick={() => { completeTodo(todo._id) }}>
                     {todo.completed== true? "Completed": "Mark as Complete"}
                 </button>
-                <button onClick={() => { deleteTodo(todo._id) }}>Delete</button>
+                <button onClick={() => { deleteTodo(todo._id) }}>
+                    <img src={deleteIcon} alt="Delete" height="16em" />
+                </button>
             </div>
             })
         }
