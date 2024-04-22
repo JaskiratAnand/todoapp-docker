@@ -1,9 +1,9 @@
-# TODO App
-This project contains a simple TODO application. the application has following features:
-- Create a TODO
-- View TODOs
-- Mark TODO as done
-- Delete TODOs
+# TODO App - Docker
+This project contains a simple TODO application, using MongoDB database. The app backend and frontend can be run as Docker containers. 
+The application features:
+- CREATE, VIEW & DELETE a TODOs
+- Mark TODOs as completed
+- Dockerised Backend and Frontend.
 
 
 ## Setup
