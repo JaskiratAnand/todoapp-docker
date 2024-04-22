@@ -55,3 +55,11 @@ The application features:
 
     docker run -p 8080:8080 todo-frontend-app
 ```
+
+## Screenshots
+![Screenshot (240)](https://github.com/JaskiratAnand/todoapp-docker/assets/70444793/6cb1cd3c-9a4d-4f4d-bea3-f7ead611fd2e)
+
+![Screenshot (243)](https://github.com/JaskiratAnand/todoapp-docker/assets/70444793/26ae3d95-36be-43fa-a1d1-21bba5ae1083)
+
+![Screenshot (245)](https://github.com/JaskiratAnand/todoapp-docker/assets/70444793/43926f97-d152-450f-bdea-e275314b8bf8)
+
